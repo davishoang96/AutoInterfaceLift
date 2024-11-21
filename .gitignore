@@ -1,0 +1,72 @@
+# Build and Release Folders
+bin/
+obj/
+
+# User-specific files
+*.userprefs
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Working Files
+.vscode/
+.vs/
+
+# Generated Files
+**/AppPackages/
+**/GeneratedFiles/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# Mac-specific files
+.DS_Store
+*.dmg
+*.ipa
+
+# Android-specific files
+*.apk
+*.ap_
+*.aab
+
+# iOS-specific files
+*.app
+*.ipa
+*.xcuserdata/
+*.xcuserstate
+ios/DerivedData/
+ios/.expo/
+ios/build/
+
+# Windows-specific files
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# Configuration Files
+.env
+.env.*.local
+
+# Logs
+*.log
+
+# Crashlytics / Firebase
+crashlytics-build.properties
+fabric.properties
+
+# Certificates and Keys
+*.pfx
+*.key
+*.keystore
+
+# JetBrains IDE Files
+.idea/
+*.iml
+
+# Other files
+!README.md
+

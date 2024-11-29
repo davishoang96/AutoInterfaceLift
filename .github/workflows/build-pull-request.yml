@@ -17,6 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+       # Install Android SDK
+      - name: Install Android SDK
+        uses: github-actions/setup-android-sdk@v2
+        with:
+          sdk-version: '35'
+
       # Set up .NET SDK
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
